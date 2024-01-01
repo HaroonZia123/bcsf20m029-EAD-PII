@@ -1,0 +1,99 @@
+<section class="bg-white dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-2xl lg:py-16">
+        <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Student Interest System</h2>
+        <form action="#" class="space-y-4">
+            <div class="grid gap-4 sm:grid-cols-2 sm:gap-6">
+                <div class="sm:col-span-3">
+                    <label for="fullName" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Full
+                        Name</label>
+                    <input type="text" name="fullName" id="fullName" class="form-input" placeholder="John Doe" required>
+                </div>
+                <div class="sm:col-span-3">
+                    <label for="rollNumber" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Roll
+                        Number</label>
+                    <input type="text" name="rollNumber" id="rollNumber" class="form-input" placeholder="12345"
+                        required>
+                </div>
+                <div class="w-full">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email
+                        Address</label>
+                    <input type="email" name="email" id="email" class="form-input" placeholder="john.doe@example.com"
+                        required>
+                </div>
+                <div class="w-full">
+                    <label for="gender"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Gender</label>
+                    <select id="gender" name="gender" class="form-select" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="w-full">
+                    <label for="dob" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date of
+                        Birth</label>
+                    <input type="date" name="dob" id="dob" class="form-input" required>
+                </div>
+                <div class="w-full">
+                    <label for="city" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">City</label>
+                    <select id="city" name="city" class="form-select" required>
+                        <option value="new-york">New York</option>
+                        <option value="los-angeles">Los Angeles</option>
+                        <option value="chicago">Chicago</option>
+                        <!-- Add more cities as needed -->
+                    </select>
+                </div>
+                <div class="w-full">
+                    <label for="interest"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Interest</label>
+                    <select id="interest" name="interest" class="form-select" required>
+                        <option value="programming">Programming</option>
+                        <option value="design">Design</option>
+                        <option value="sports">Sports</option>
+                        <!-- Add more interests as needed -->
+                    </select>
+                </div>
+                <div class="w-full">
+                    <label for="department"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Department</label>
+                    <select id="department" name="department" class="form-select" required>
+                        <option value="engineering">Engineering</option>
+                        <option value="business">Business</option>
+                        <option value="arts">Arts</option>
+                        <!-- Add more departments as needed -->
+                    </select>
+                </div>
+                <div class="w-full">
+                    <label for="degreeTitle" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Degree
+                        Title</label>
+                    <select id="degreeTitle" name="degreeTitle" class="form-select" required>
+                        <option value="bachelor">Bachelor's Degree</option>
+                        <option value="master">Master's Degree</option>
+                        <option value="doctorate">Doctorate</option>
+                        <!-- Add more degree titles as needed -->
+                    </select>
+                </div>
+                <div class="sm:col-span-3">
+                    <label for="subject"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
+                    <input type="text" name="subject" id="subject" class="form-input" placeholder="Subject of Interest"
+                        required>
+                </div>
+                <div class="w-full">
+                    <label for="startDate" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Start
+                        Date</label>
+                    <input type="date" name="startDate" id="startDate" class="form-input" required>
+                </div>
+                <div class="w-full">
+                    <label for="endDate" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">End
+                        Date</label>
+                    <input type="date" name="endDate" id="endDate" class="form-input" required>
+                </div>
+            </div>
+            <div class="flex justify-end space-x-4">
+                <button type="submit" class="btn btn-primary bg-gray-500 hover:bg-gray-600">Create</button>
+                <button type="button" class="btn btn-secondary bg-gray-500 hover:bg-gray-600">Cancel</button>
+            </div>
+        </form>
+    </div>
+</section>
