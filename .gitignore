@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3cbdf15006ebb829fd42712b0f8f76f83f0249a
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
@@ -41,6 +44,7 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
 =======
 # .gitignore for C# MVC projects
 
@@ -327,3 +331,5 @@ ehthumbs.db
 # Folder config file
 Desktop
 >>>>>>> 5648d97 (Initial commit)
+=======
+>>>>>>> b3cbdf15006ebb829fd42712b0f8f76f83f0249a

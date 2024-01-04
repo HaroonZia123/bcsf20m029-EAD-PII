@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b3cbdf15006ebb829fd42712b0f8f76f83f0249a
   "name": "my-angular-app",
   "version": "0.0.0",
   "scripts": {
@@ -36,6 +39,7 @@
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.2.2"
   }
+<<<<<<< HEAD
 =======
   "name": "project2_ead",
   "version": "1.0.0",
@@ -48,4 +52,6 @@
   "author": "",
   "license": "ISC"
 >>>>>>> 5648d97 (Initial commit)
+=======
+>>>>>>> b3cbdf15006ebb829fd42712b0f8f76f83f0249a
 }
