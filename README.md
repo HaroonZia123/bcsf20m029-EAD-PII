@@ -62,6 +62,22 @@ Before you begin, ensure you have met the following requirements:
 5. Dashboard
 Explore other features and functionalities within the application.
 
+## Screenshots
+
+![Main Page](screenshots/home.png)
+*Description: This screenshot shows the main page of the Student Interest System with a list of students.*
+
+![Add Student Form](screenshots/addstudent.png)
+*Description: This screenshot displays the form for adding new student details, including dynamic interest selection.*
+
+
+![List Form](screenshots/list.png)
+*Description: This screenshot displays the list student details, including crud operation.*
+
+
+![Add Student Form](screenshots/dashboard.png)
+*Description: This screenshot displays the statistics.*
+
 ## Contributing
 
 Contributions are welcome! Please follow the [Contributing Guidelines](CONTRIBUTING.md).
